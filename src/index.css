@@ -75,7 +75,7 @@ ul li::before {
   align-items: center;
   padding: 0.5rem 0 0.5rem 0.5rem;
   margin: 0.25rem 0;
-  background-color: palevioletred;
+  background-color: deeppink;
 }
 
 .item:first-child {
@@ -92,6 +92,10 @@ ul li::before {
   min-height: 48px;
   cursor: pointer;
   margin-right: 0.5rem;
+}
+input[type="checkbox"]:checked {
+  color: #007bff;
+  border-color: silver;
 }
 
 .item input[type="checkbox"]:focus + label {
@@ -114,7 +118,7 @@ ul li::before {
 
 .item svg:focus, 
 .item svg:hover {
-  color: red;
+  color: green;
   outline: none;
 }
 
