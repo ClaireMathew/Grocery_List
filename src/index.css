@@ -25,15 +25,16 @@ body {
   height: 100vh; 
   width: 100%; 
   max-width: 500px;
-  border: 1px solid mediumblue;
+  border: 5px solid pink;
   margin: auto;
+  background-color: hotpink;
 }
 
 header {
   width: 100%;
   padding: 0 0.25em;
-  background-color: mediumblue;
-  color: aliceblue;
+  background-color: hotpink;
+  color:  white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,8 +53,8 @@ main {
 footer {
   width: 100%;
   padding: 0.25em;
-  background-color: mediumblue;
-  color: aliceblue;
+  background-color: hotpink;
+  color: black;
   display: grid;
   place-content: center;
 }
@@ -74,7 +75,7 @@ ul li::before {
   align-items: center;
   padding: 0.5rem 0 0.5rem 0.5rem;
   margin: 0.25rem 0;
-  background-color: #eee;
+  background-color: palevioletred;
 }
 
 .item:first-child {
